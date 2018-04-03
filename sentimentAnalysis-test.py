@@ -16,7 +16,7 @@ api = tweepy.API(auth)
 
 # Authentication complete
 
-public_tweets = api.search('muslims')
+public_tweets = api.search('happy birthday')
 
 
 for tweet in public_tweets:
